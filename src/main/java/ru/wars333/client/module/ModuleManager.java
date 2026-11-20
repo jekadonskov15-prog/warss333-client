@@ -32,7 +32,6 @@ public final class ModuleManager {
         add(new HudMod());
         add(new AmbienceMod());
         add(new ParticlesMod());
-        add(new OptimizerMod());
         add(new AutoSwapMod());
         add(new AutoActionMod());
         load();
