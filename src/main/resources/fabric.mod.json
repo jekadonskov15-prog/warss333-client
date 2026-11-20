@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "wars333",
+  "version": "${version}",
+  "name": "wars333",
+  "description": "wars333 visual client: HUD, ambience sky, particles, menu, accounts, optimizer, auto swap.",
+  "authors": ["wars333"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.wars333.client.Wars333Client"]
+  },
+  "mixins": ["wars333.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
